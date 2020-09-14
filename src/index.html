@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/config.js"></script>
+    <script src="js/main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="outer_box">
+        <div id="player_box">
+            <video src="movie.mp4" id="video_section"></video>
+            <div id="timer_preview"></div>
+            <div id="play_seekbar" draggable="true"></div>
+            <div id="control_section">
+                <div id="player_settings_section">
+                    <img src="img/backward.svg" alt="" id="P_backward">
+                    <img src="img/play.svg" alt="" id="P_play">
+                    <img src="img/forward.svg" alt="" id="P_forward">
+                    <div id="timer"><span id="curtimetext">00:00 </span><span>/</span><span id="durtimetext"> 00:00</span></div>
+                </div>
+                <div id="VCSF_settings_section">
+                    <img src="img/volume-2.svg" alt="" id="P_volume">
+                    <img src="img/settings.svg" alt="" id="P_settings">
+                    <img src="img/expand.svg" alt="" id="P_expand_compress">
+                </div>
+            </div>
+            <div id="settings_section" style="display:none">
+                <div id="P_quality">
+                    <div>
+                        Quality
+                    </div>
+                    <div  id="P_quality_right">
+                        <div>Auto</div>
+                        <img src="img/double-right-arrow.svg" alt="">
+                    </div>
+                </div>
+                <div id="P_caption">
+                    <div>
+                        Subtitle
+                    </div>
+                    <div id="P_caption_right">
+                        <img src="img/flags/gb-eng.svg" alt="" id="lang">
+                        <img src="img/double-right-arrow.svg" alt="">
+                    </div>
+                </div>
+                <div id="P_playback">
+                    <div>
+                        speed
+                    </div>
+                    <div  id="P_speed_right">
+                        <div>
+                            1.0x
+                        </div>
+                        <img src="img/double-right-arrow.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1></h1>
+</body>
+</html>

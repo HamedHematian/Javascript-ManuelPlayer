@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#outer_box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+#player_box {
+    position: relative;
+}
+
+#video_section {
+    width: 840px;
+}
+
+#control_section {
+    position: absolute;
+    width: 100%;
+    height: 9%;
+    bottom: 1%;
+    background-color: rgba(128, 123, 123, 0.459);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#play_seekbar {
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    height: 2%;
+    background-color: rgb(151, 139, 139);
+    z-index: 10000;
+    
+}
+
+#play_seekbar:hover {
+    cursor: pointer;
+}
+
+#player_settings_section {
+    display: flex;
+    margin-left: 1%;
+    align-items: center;
+    flex-basis: 100%;
+}
+
+#player_settings_section > img {
+    width: 5%;
+    height: 5%;
+    margin:3%; 
+    cursor: pointer;
+}
+
+#VCSF_settings_section {
+    display: flex;
+    margin-right: 1%;
+    justify-content: flex-end;
+    position: relative;
+    flex-grow: 1;
+    align-items: center;
+    flex-basis: 100%;
+}
+
+#VCSF_settings_section > img {
+    width: 6%;
+    height: 6%;
+    margin: 3%; 
+    cursor: pointer;
+}
+
+#settings_section {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    bottom: 13%;
+    width: 30%;
+    height: 30%;
+    background-color: rgba(151, 139, 139, 0.575);
+    right: .5%;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+#settings_section > div{
+    font-weight: bold;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    font-size: 120%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#settings_section > div > img{
+    width: 7%;
+    height: 7%;
+}
+
+#timer {
+    display: flex;
+    font-weight: bold;
+    font-size: 150%;
+    align-content: center;
+    line-height: 50%;
+}
+
+#timer > span {
+    margin-top: 0%;
+    margin-left: 5%;
+}
+
+#timer_preview {
+    display: none;
+    position: absolute;
+    bottom: 13%;
+    width : 80px;
+    height: 20px;
+    padding-bottom: 5px;
+    padding-top: .8%;
+    border: none;
+    color: azure;
+    background-color: rgba(177, 47, 47, 0.815);
+    text-align: center;
+    font-weight: bold;
+    left: 0px;
+}
+
+
+#P_caption:active {
+    background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%,rgba(255, 255, 255, 0) 30%, #00FFFF 33%, #00FFFF 66%, rgba(255, 255, 255, 0) 66%,rgba(255, 255, 255, 0) 100% );
+}
+
+#lang {
+    width: 400px;
+    height: 300px;
+}
+
+#P_quality_right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#P_caption_right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#P_speed_right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+#P_quality_right > img {
+    width: 10%;
+    height: 10%;
+    margin-left: 5%;
+}
+
+#P_caption_right > img {
+    width: 10%;
+    height: 10%;
+    margin-left: 5%;
+}
+
+#P_speed_right > img {
+    width: 10%;
+    height: 10%;
+    margin-left: 5%;
+}
+
+#P_settings {
+    transition: transform .1s;
+}
+
+#P_settings:active {
+    transform: rotate(180deg)
+}
