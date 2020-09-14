@@ -31,7 +31,6 @@ window.onload = () => {
     let backward_img = document.getElementById('P_backward')
     let forward_img = document.getElementById('P_forward')
     let volume_img = document.getElementById('P_volume')
-    let settings_img = document.getElementById('P_settings')
     let expand_compress_img = document.getElementById('P_expand_compress')
 
     //defining classes
