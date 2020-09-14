@@ -20,20 +20,21 @@
 
 
 ## Attributes
-* Breadth First Search
-* Depth First Search
-* Uniform Cost Search
-* Depth Limited Search
-* Iterative Depth Search
-* Best First Search
-* A* Search
-* RBFS (coming soon)
-* HillClimbing
-* Random Restart HillClimbing
-* Genetic Algorithm
-* Simulated Annealing (still working to improve this one)
-* Local Beam Serach
-* CSP with MRV & Degree & Forward Checking & AC-3
+
+#### Shortcuts
+* chanhe volume using key down & key up
+* forward & backward using keys
+* full screen and exit fullscrenn
+* pause and play using space
+
+#### options
+* displaying a playbar that you can easily navigate through video
+* two buttons for forwarding & backwarding
+* a button for play and pause
+* button for fullscreen & exit from it
+* button to mute the video
+
+
 
 
 ## How To Run
@@ -41,4 +42,4 @@ navigate to the src folder and open <code>index.html</code> by double clicking
 you can also play your own video by rename it to <code>movie.mp4</code> and place it in the src directory
 
 ## Credits
-
+all svg buttons have been provided from website <code>https://fontawesome.com</code>
