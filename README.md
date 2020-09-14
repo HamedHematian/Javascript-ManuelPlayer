@@ -1,9 +1,5 @@
 # Javascript-ManuelPlayer
 
-# Search-CSP
-
-#### A Graphical  implementation of Search &amp; CSP section of Russel AI book By Python & JS
-
 
 
 # Navigate
